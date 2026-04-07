@@ -12,12 +12,12 @@ const FounderHeader = () => {
           </span>
         </div>
         <a
-          href="https://wa.me/19295009884"
+          href="mailto:sales@beyond-five.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex h-8 items-center rounded-md bg-accent px-4 text-xs font-medium font-heading text-background transition-opacity hover:opacity-90"
         >
-          Chat with Founder
+          Email the Founder
         </a>
       </div>
     </header>

@@ -41,12 +41,12 @@ const FounderHero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://wa.me/19295009884"
+              href="mailto:sales@beyond-five.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-12 items-center justify-center rounded-md bg-accent px-7 text-sm font-medium font-heading text-background transition-opacity hover:opacity-90"
             >
-              Chat with Founder
+              Email the Founder
             </a>
             <a
               href="#phases"

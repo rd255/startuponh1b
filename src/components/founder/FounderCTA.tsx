@@ -26,28 +26,20 @@ const FounderCTA = () => {
             <div className="flex items-center justify-center h-full">
               <div className="w-full max-w-sm space-y-6">
                 <div className="border border-border/40 rounded-lg p-6 bg-card/50 space-y-4">
-                  <p className="font-heading text-sm font-medium">Chat directly with the founder</p>
+                  <p className="font-heading text-sm font-medium">Email the founder directly</p>
                   <p className="text-xs text-muted-foreground leading-relaxed">
-                    ~30 minutes. We'll assess your situation and outline
-                    next steps — no commitment required.
+                    Tell us your situation — current status, company setup, and timeline.
+                    We'll respond within 24 hours.
                   </p>
                   <a
-                    href="https://wa.me/19295009884"
+                    href="mailto:sales@beyond-five.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex w-full h-11 items-center justify-center rounded-md bg-accent text-sm font-medium font-heading text-background transition-opacity hover:opacity-90"
                   >
-                    Chat with Founder
+                    Email the Founder
                   </a>
-                  <p className="text-center text-xs text-muted-foreground">
-                    or email{" "}
-                    <a
-                      href="mailto:sales@beyond-five.com"
-                      className="underline underline-offset-2 hover:text-foreground transition-colors"
-                    >
-                      sales@beyond-five.com
-                    </a>
-                  </p>
+                  <p className="text-center text-xs text-muted-foreground">sales@beyond-five.com</p>
                 </div>
 
                 <div className="border border-border/30 rounded-lg p-5 space-y-3">

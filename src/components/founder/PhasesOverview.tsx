@@ -82,12 +82,12 @@ const PhasesOverview = () => {
               <span className="text-xs text-muted-foreground">+ government fees</span>
             </div>
             <a
-              href="https://wa.me/19295009884"
+              href="mailto:sales@beyond-five.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-9 items-center justify-center rounded-md bg-accent px-5 text-xs font-medium font-heading text-background transition-opacity hover:opacity-90 flex-shrink-0"
             >
-              Chat with Founder
+              Email the Founder
             </a>
           </div>
         </AnimatedSection>
