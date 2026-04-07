@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: hsl(34 13% 6%);
+    color: hsl(36 18% 93%);
+    font-family: 'Roboto Flex', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  p { margin: 0; }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+
+  .grid-line {
+    @apply absolute top-0 bottom-0 w-px;
+    background: hsl(34 10% 17% / 0.3);
+  }
+
+  .label-text {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: hsl(34 7% 48%);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 400;
+  }
+
+  .nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(34 7% 48%);
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+
+  .nav-link:hover { color: hsl(36 18% 93%); }
+
+  .card-hover { transition: all 0.3s; }
+  .card-hover:hover { border-color: hsl(36 62% 49% / 0.3); }
+}
