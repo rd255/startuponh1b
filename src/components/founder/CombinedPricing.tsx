@@ -1,9 +1,6 @@
 import AnimatedSection from "../AnimatedSection";
 
-const ourFees = [
-  { label: "Phase 1 — Entity Formation", amount: "$500", detail: "Incorporation, EIN, org docs, equity setup, 83(b) guidance" },
-  { label: "Phase 2 — H1B Advisory", amount: "$500", detail: "Strategy, business plan, financials, attorney brief" },
-];
+const ourFeeDetail = "Entity formation, incorporation, EIN, org docs, equity setup, 83(b) guidance, H1B strategy, business plan, financials, and attorney brief.";
 
 const govFees = [
   { category: "Entity", label: "Delaware Certificate of Incorporation", amount: "$89", note: "Higher authorized share counts increase this fee." },
@@ -38,20 +35,12 @@ const CombinedPricing = () => {
           <AnimatedSection>
             <div className="border border-accent/25 rounded-lg p-8 h-full flex flex-col bg-card/60">
               <p className="label-text mb-8 text-accent">Our Advisory Fees</p>
-              <div className="space-y-0 flex-1">
-                {ourFees.map((row, i) => (
-                  <div key={row.label} className={`py-5 ${i < ourFees.length - 1 ? "border-b border-border/30" : ""}`}>
-                    <div className="flex justify-between items-start gap-4 mb-1">
-                      <span className="font-heading text-sm font-medium text-foreground">{row.label}</span>
-                      <span className="font-heading text-xl font-medium text-accent flex-shrink-0">{row.amount}</span>
-                    </div>
-                    <p className="text-xs text-muted-foreground">{row.detail}</p>
-                  </div>
-                ))}
+              <div className="flex-1">
+                <p className="text-sm text-muted-foreground leading-relaxed">{ourFeeDetail}</p>
               </div>
               <div className="mt-6 pt-6 border-t border-border/30 flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Total advisory</span>
-                <span className="font-heading text-2xl font-medium">$1,000</span>
+                <span className="font-heading text-2xl font-medium">$5,000</span>
               </div>
             </div>
           </AnimatedSection>
