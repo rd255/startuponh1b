@@ -4,7 +4,6 @@ const phases = [
   {
     num: "Phase 1",
     title: "Entity Formation",
-    price: "$2,500",
     timeline: "1–2 weeks",
     desc: "Incorporate your Delaware C Corp with the governance structure, equity setup, and documentation that both operates the company and supports your H1B petition.",
     items: [
@@ -18,7 +17,6 @@ const phases = [
   {
     num: "Phase 2",
     title: "H1B Petition Advisory",
-    price: "$2,500",
     timeline: "3–6 weeks",
     desc: "Strategy, business plan, and financial documentation for your H1B petition — built on the company formed in Phase 1. Attorney partners file with USCIS.",
     items: [
@@ -56,8 +54,7 @@ const PhasesOverview = () => {
                     <h3 className="font-heading text-xl font-medium">{p.title}</h3>
                   </div>
                   <div className="text-right">
-                    <p className="font-heading text-2xl font-medium">{p.price}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{p.timeline}</p>
+                    <p className="text-xs text-muted-foreground">{p.timeline}</p>
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-8">{p.desc}</p>
