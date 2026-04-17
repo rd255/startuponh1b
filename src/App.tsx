@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import FounderHeader from "./components/founder/FounderHeader";
 import FounderHero from "./components/founder/FounderHero";
 import TrustBar from "./components/founder/TrustBar";
@@ -22,6 +23,7 @@ function App() {
         <CombinedPricing />
         <FounderCTA />
       </main>
+      <Analytics />
     </div>
   );
 }
